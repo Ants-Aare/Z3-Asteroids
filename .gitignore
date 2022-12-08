@@ -1,0 +1,70 @@
+# OS
+Thumbs.db
+.DS_Store
+
+# C#
+obj
+**/bin/Debug
+**/bin/Release
+**/packages
+
+# IDEs
+*.userprefs
+*.user
+test-results
+.vs
+.vscode
+.idea
+DerivedData
+xcuserdata
+build
+
+# Unity
+!/Packages
+/Library
+/Temp
+/Logs
+/UserSettings
+/*.csproj
+/*.sln
+*.unitypackage
+.gradle
+**/Assets/Plugins/Editor/JetBrains
+**/Assets/Plugins/Editor/JetBrains.meta
+ProjectSettings/RiderScriptEditorPersistedState.asset
+
+# Blender
+*.blend1
+
+# Jenny
+Jenny.zip
+Jenny.zip.meta
+*.userproperties
+
+# bee
+.bee/logs
+
+# fastlane
+fastlane/README.md
+fastlane/report.xml
+
+# Firebase
+crashlytics_build_id.xml
+crashlytics_build_id.xml.meta
+crashlytics_unity_version.xml.meta
+crashlytics_unity_version.xml
+remote_config_data
+Assets/GeneratedLocalRepo
+Assets/GeneratedLocalRepo.meta
+Assets/Plugins/Android/FirebaseCrashlytics.androidlib/res/values.meta
+Assets/Plugins/Android/FirebaseCrashlytics.androidlib/res.meta
+
+# GameKit
+!GameKit/GameKit.sln
+/Build
+GameKitChecklist.properties
+.preprocessAndroid
+.preprocessiOS
+.githooksversion
+Assets/Resources/gamekit-build-info.asset
+Assets/Resources/gamekit-build-info.asset.meta
