@@ -1,0 +1,6 @@
+[submodule "Assets/Plugins/AAA"]
+	path = Assets/Plugins/AAA
+	url = https://github.com/Ants-Aare/AAA
+[submodule "Assets/Plugins/AAA.Editor"]
+	path = Assets/Plugins/AAA.Editor
+	url = https://github.com/Ants-Aare/AAA.Editor

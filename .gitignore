@@ -68,3 +68,5 @@ GameKitChecklist.properties
 .githooksversion
 Assets/Resources/gamekit-build-info.asset
 Assets/Resources/gamekit-build-info.asset.meta
+Assets/AutoSave
+Assets/AutoSave.meta
