@@ -1,5 +1,97 @@
 {
   "dependencies": {
+    "com.unity-atoms.unity-atoms-base-atoms": {
+      "version": "4.4.5",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.modules.physics": "1.0.0",
+        "com.unity.modules.physics2d": "1.0.0",
+        "com.unity-atoms.unity-atoms-core": "4.4.5"
+      },
+      "url": "https://registry.npmjs.org"
+    },
+    "com.unity-atoms.unity-atoms-core": {
+      "version": "4.4.5",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.modules.uielements": "1.0.0"
+      },
+      "url": "https://registry.npmjs.org"
+    },
+    "com.unity-atoms.unity-atoms-fsm": {
+      "version": "4.4.5",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity-atoms.unity-atoms-core": "4.4.5",
+        "com.unity-atoms.unity-atoms-base-atoms": "4.4.5"
+      },
+      "url": "https://registry.npmjs.org"
+    },
+    "com.unity-atoms.unity-atoms-input-system": {
+      "version": "4.4.5",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity-atoms.unity-atoms-core": "4.4.5",
+        "com.unity-atoms.unity-atoms-base-atoms": "4.4.5",
+        "com.unity.inputsystem": "1.0.1"
+      },
+      "url": "https://registry.npmjs.org"
+    },
+    "com.unity-atoms.unity-atoms-mobile": {
+      "version": "4.4.5",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity-atoms.unity-atoms-core": "4.4.5",
+        "com.unity-atoms.unity-atoms-base-atoms": "4.4.5"
+      },
+      "url": "https://registry.npmjs.org"
+    },
+    "com.unity-atoms.unity-atoms-mono-hooks": {
+      "version": "4.4.5",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.ugui": "1.0.0",
+        "com.unity-atoms.unity-atoms-core": "4.4.5",
+        "com.unity-atoms.unity-atoms-base-atoms": "4.4.5"
+      },
+      "url": "https://registry.npmjs.org"
+    },
+    "com.unity-atoms.unity-atoms-scene-mgmt": {
+      "version": "4.4.5",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity-atoms.unity-atoms-core": "4.4.5",
+        "com.unity-atoms.unity-atoms-base-atoms": "4.4.5"
+      },
+      "url": "https://registry.npmjs.org"
+    },
+    "com.unity-atoms.unity-atoms-tags": {
+      "version": "4.4.5",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity-atoms.unity-atoms-core": "4.4.5",
+        "com.unity-atoms.unity-atoms-base-atoms": "4.4.5"
+      },
+      "url": "https://registry.npmjs.org"
+    },
+    "com.unity-atoms.unity-atoms-ui": {
+      "version": "4.4.5",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity-atoms.unity-atoms-core": "4.4.5",
+        "com.unity-atoms.unity-atoms-base-atoms": "4.4.5"
+      },
+      "url": "https://registry.npmjs.org"
+    },
     "com.unity.addressables": {
       "version": "1.19.19",
       "depth": 0,
@@ -15,7 +107,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.burst": {
-      "version": "1.7.3",
+      "version": "1.8.2",
       "depth": 1,
       "source": "registry",
       "dependencies": {
@@ -40,7 +132,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.ide.rider": {
-      "version": "3.0.17",
+      "version": "3.0.18",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -74,7 +166,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.render-pipelines.core": {
-      "version": "12.1.8",
+      "version": "12.1.10",
       "depth": 1,
       "source": "builtin",
       "dependencies": {
@@ -84,14 +176,14 @@
       }
     },
     "com.unity.render-pipelines.universal": {
-      "version": "12.1.8",
+      "version": "12.1.10",
       "depth": 0,
       "source": "builtin",
       "dependencies": {
         "com.unity.mathematics": "1.2.1",
-        "com.unity.burst": "1.7.3",
-        "com.unity.render-pipelines.core": "12.1.8",
-        "com.unity.shadergraph": "12.1.8"
+        "com.unity.burst": "1.8.2",
+        "com.unity.render-pipelines.core": "12.1.10",
+        "com.unity.shadergraph": "12.1.10"
       }
     },
     "com.unity.scriptablebuildpipeline": {
@@ -109,11 +201,11 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.shadergraph": {
-      "version": "12.1.8",
+      "version": "12.1.10",
       "depth": 1,
       "source": "builtin",
       "dependencies": {
-        "com.unity.render-pipelines.core": "12.1.8",
+        "com.unity.render-pipelines.core": "12.1.10",
         "com.unity.searcher": "4.9.1"
       }
     },
