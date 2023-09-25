@@ -4,6 +4,7 @@ using JetBrains.RiderFlow.Core.Services.Caches.GameObjects;
 using JetBrains.RiderFlow.Core.Utils;
 using UnityEditor;
 using UnityEditor.Experimental.SceneManagement;
+using UnityEditor.SceneManagement;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 // Need to use prefabAssetPath in Unity 2019.4 so warning is disabled

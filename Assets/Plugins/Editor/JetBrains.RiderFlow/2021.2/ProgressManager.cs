@@ -10,6 +10,11 @@ namespace JetBrains.RiderFlow.Since2021_2
         private int myProgressesCount;
         private int myRootProgressId = -1;
 
+        private ProgressManager()
+        {
+            
+        }
+        
         public int CreateProgress(string name, string description = null, bool isIndefinite = false)
         {
             var rootProgressId = CreateOrGetRootProgressId();
