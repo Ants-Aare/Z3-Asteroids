@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5eeec1a54c238b7a0b33cf76823ea4e3, type: 3}
+  m_Name: AsteroidPrefabPool
+  m_EditorClassIdentifier: 
+  prefabs:
+  - {fileID: 603093211, guid: d76d6e48e6d5141378dfb53d24db0c76, type: 3}
+  - {fileID: 5232754749111727676, guid: 44ab1e6294fa146dea4d3852b6d765e5, type: 3}
+  - {fileID: 5806573103589940220, guid: 3c832837e8cc643dcacf250336e63d21, type: 3}
+  - {fileID: 3593599355851479707, guid: bb1539e6e675d444da432e536b87f23a, type: 3}
+  - {fileID: 6631431814461436698, guid: 520980d19acc94ff3b9913e5780bb197, type: 3}
+  defaultCapacity: 20
+  maxCapacity: 100
+  performCollectionChecks: 1
